@@ -13,8 +13,6 @@
 #include "serial_telemetry.h"
 #include "sounds.h"
 #include "targets.h"
-
-EEprom_t eepromBuffer;
 int max_servo_deviation = 250;
 int servorawinput;
 uint16_t smallestnumber = 20000;
